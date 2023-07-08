@@ -33,6 +33,7 @@ with open("../cp949.g.h", "w") as fp:
 #include <stdint.h>
 #include <limits.h>
 
+__attribute__((externally_visible))
 extern uint32_t __cp949[UINT16_MAX + 1];
 
 #endif // BOB_DECRYPTOR_CP949_H

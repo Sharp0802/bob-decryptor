@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <sys/types.h>
 
+__attribute__((externally_visible))
 size_t UTF16(uint8_t* utf8, const uint16_t* utf16, size_t nSrc);
 
 #endif //BOB_DECRYPTOR_UTF16_H
